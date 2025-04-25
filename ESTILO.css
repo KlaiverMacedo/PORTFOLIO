@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+RO:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#ad5772;
+    color: aliceblue;
+    margin: 0%;
+}
+#principal
+{
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.apresentacao_titulo{
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing:auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36;
+    padding-bottom: 50px;
+    color: #F4CCE9;
+  }
+  .apresentacao_destaque{
+    color: #56021F;
+  }
+  .apresentacao_texto{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24;
+    color: #F4CCE9;
+  }
+  .apresentacao_botoes{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24;
+    padding-top: 38px;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 50px;
+  }
+  .apresentacao_botao{
+    background-color: #56021F;
+    padding: 16px;
+    width: 280px;
+    text-decoration: none;
+    text-align: center;
+    color: #F4CCE9;
+    border-radius: 16px;
+  }
+.imagem{
+    width: 240px;
+    height: 320px;
+    margin-right: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #56021F;
+}
+
