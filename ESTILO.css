@@ -8,6 +8,7 @@ body{
     background-color:#ad5772;
     color: aliceblue;
     margin: 0%;
+
 }
 #principal
 {
@@ -17,6 +18,7 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-left: 150px;
+    
 }
 .apresentacao{
     display: flex;
